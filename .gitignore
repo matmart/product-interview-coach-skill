@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+
+# Personal coaching data
+coaching_state.md
+*_resume*.md
+
+# Claude Code internals
+.claude/
