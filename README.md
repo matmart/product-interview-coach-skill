@@ -66,6 +66,7 @@ The coach will ask for your resume, target role, and timeline — then build you
 | `debrief` | Post-interview rapid capture (same day) | Questions recalled, interviewer signals, stories used, coaching state updates |
 | `practice` | Run drill rounds (with progression gating) | Round debrief + self-assessment delta + targeted adjustment |
 | `mock [format]` | Full simulated interview (4-6 Qs) — behavioral, system design, case study, panel, technical+behavioral mix | Holistic arc feedback, signal-reading notes, energy trajectory |
+| `product-sense` | PM product sense interview coaching (segment selection, bottleneck diagnosis, solution design, tradeoffs) | Structured answer + rubric-based scoring + targeted next drills |
 | `stories` | Build/manage storybank + rapid-retrieval drill | Story table + earned secrets + gap analysis + retrieval drill |
 | `concerns` | Anticipate interviewer concerns | Concern-counter-evidence map |
 | `questions` | Generate interviewer questions | 5 tailored, non-generic questions |
@@ -205,7 +206,20 @@ Runs a complete 4-6 question interview simulation. Formats: behavioral, system d
 - Signal-reading (did you adapt to interviewer cues?)
 - Per-question scoring + holistic patterns only visible across the full session
 
-### 8) Post-offer negotiation
+### 8) Product sense interview practice (PM)
+
+```text
+product-sense
+```
+
+Use this when preparing for PM-style product sense prompts (for example: market entry, retention, trust/safety, or growth scenarios). Get:
+
+- A structured framework for the answer arc (segment -> bottleneck -> solution -> metrics)
+- Rubric-based scoring and gap diagnosis using `references/product-sense-rubric.md`
+- Targeted drills from `references/product-sense-drills.md` based on detected weaknesses
+- Clear next-step practice recommendations
+
+### 9) Post-offer negotiation
 
 ```text
 negotiate
@@ -264,6 +278,7 @@ interview-coach-skill/
     │   ├── kickoff.md
     │   ├── research.md
     │   ├── prep.md
+    │   ├── product-sense.md
     │   ├── analyze.md
     │   ├── debrief.md
     │   ├── practice.md
@@ -280,6 +295,8 @@ interview-coach-skill/
     ├── cross-cutting.md                # Shared modules: gap-handling, signal-reading, differentiation, cultural awareness, psychological readiness, cross-command dependencies
     ├── rubrics-detailed.md             # Scoring anchors, root causes, seniority calibration
     ├── role-drills.md                  # Role-specific drills + interviewer archetypes
+    ├── product-sense-rubric.md         # Product sense scoring rubric (segment, bottleneck, solution, metric, prioritization)
+    ├── product-sense-drills.md         # Product sense practice library with scenario prompts
     ├── differentiation.md              # Earned secrets, spiky POVs, clarity under pressure
     ├── transcript-processing.md        # Step-by-step transcript analysis guide
     ├── storybank-guide.md              # Story management + rapid-retrieval drill
