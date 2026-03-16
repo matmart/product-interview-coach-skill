@@ -35,11 +35,11 @@ The simplest path. Open this repo directly from Claude Code on Desktop:
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/noamseg/interview-coach-skill.git
-cd interview-coach-skill
+git clone https://github.com/diegoyret/product-interview-coach-skill.git
+cd product-interview-coach-skill
 ```
 
-Or [download it as a ZIP](https://github.com/noamseg/interview-coach-skill/archive/refs/heads/main.zip) and unzip.
+Or [download it as a ZIP](https://github.com/diegoyret/product-interview-coach-skill/archive/refs/heads/main.zip) and unzip.
 
 2. Activate the coach by renaming the skill file:
 
@@ -268,7 +268,7 @@ Choose during `kickoff`. You can switch later.
 ## Repository Structure
 
 ```text
-interview-coach-skill/
+product-interview-coach-skill/
 ├── SKILL.md                            # Core skill — rename to CLAUDE.md to activate
 ├── README.md                           # This file
 ├── LICENSE                             # MIT License
